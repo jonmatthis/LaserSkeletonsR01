@@ -39,7 +39,6 @@ structure defined in the `tex` file using markdown heading levels to match tex
 
 def create_component_summary_chain():
     prompt = ChatPromptTemplate.from_template(SUMMARY_PROMPT)
-
     model = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k")
     chain = prompt | model
     return chain
@@ -101,7 +100,9 @@ async def auto_document(document_root_path: Union[Path, str]):
 
     all_summaries = await component_summary_chain.abatch(input_texts)
     for summary in all_summaries:
-        file_summary = f"+++++++++++++++++++++++++++++++++++\n\n{summary.content}\n\n-----------------------------------\n\n"
+        file_summary = (f"+++++++++++++++++++++++++++++++++++\n\n"
+                        f"{summary.content}\n\n"
+                        f"-----------------------------------\n\n")
         print(file_summary)
         output_text += file_summary
 
