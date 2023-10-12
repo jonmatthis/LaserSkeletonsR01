@@ -153,4 +153,4 @@ dmypy.json
 cython_debug/
 
 .idea/
-/magic_tree/utilities/quine_output/
+.obsidian/
