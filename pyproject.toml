@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "laserskeletonsr01"
+version = "0.1.0"
+description = ""
+authors = ["Jon Matthis <jonmatthis@gmail.com>"]
+license = "AGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.9,<3.13"
+magic-tree = {git = "https://github.com/jonmatthis/magic_tree.git"}
+langchain = "^0.0.313"
+python-dotenv = "^1.0.0"
+openai = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
