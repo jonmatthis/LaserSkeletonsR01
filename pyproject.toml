@@ -12,6 +12,7 @@ magic-tree = {git = "https://github.com/jonmatthis/magic_tree.git"}
 langchain = "^0.0.313"
 python-dotenv = "^1.0.0"
 openai = "^0.28.1"
+anthropic = "^0.3.11"
 
 
 [build-system]
