@@ -6,52 +6,86 @@ visually-guided walking
 Why do we need Laboratory-precision measurements?
 
 - Accuracy (can't trust kinematics of IMU systems)
+
 - Controllable/parameterizable terrain (can make contrived terrain configurations to test specific hypotheses)
 - Allows for hypothesis testing (outdoor work is 'quasi-observational' - good for *generating* hypotheses, indoor work necessary to *test* them)
 
 
 \emph{General Methods:} The Augmented Reality Ground-Plane (ARGP,
-developed at Northeastern) is a projector-based, 14m-long indoor walking
-path. The content of the groundplane is displayed using a series of 3x ultra-short-throw projectors showing images from a Unity game engine that is streaming in realtime kinematic data via websocket. Note that the "realtime" streaming component only needs track feet, so it can be fast while we also record much higher spatial/temportal res videos for later analysis
+developed at Northeastern) is a projector-based, 14m-long indoor walking path. The content of the groundplane is displayed using a series of 3x ultra-short-throw projectors showing images from a Unity game engine that is streaming in realtime kinematic data via websocket. Note that the "realtime" streaming component only needs track feet, so it can be fast while we also record much higher spatial/temportal res videos for later analysis
 projectors and is real-time interactive, allowing for body-position-dependent updating of displayed terrain, and play real-time auditory feedback to the participant (this is essential for high accuracy footplacement)
 
 For each of the experiments described below, we will recruit groups of
 participants (n\textgreater=10) from the Northeastern Community.
 
 \subsection{Gaze/Gait relationship in terrain of various foothold density}
+
 - Experiment (or condition?) #1 - Foothold density manipulation
+
   - 5 levels of foothold density (dense = many footholds, easy; sparse = few footholds, difficult)
+
 - Experiment (or condition) #2 - Add distractors
+
   - Same as above, but with distractors (landault C's)
+
   - Add enough distractors to each condition so the visual density is the same as the "dense" condition
+
 - Experiment #3 - Contrived paths
+
   - Examine gaze/foothold patterns from Aim 1 and Exp 1/2 to determine 'typical' gaze patterns/path selections
+  
   - Based on that, create arrangements with "dead-zones" (e.g. large sections of terrain without footholds), with and without "funnels" (i.e. a series of *perfect* steps that lead to a dead-zone)
+  
     - examine gaze/gait patterns in these conditions to see when/if subjects notice the coming dead-zone, and how they react to it (i.e. big deviations from PGC (e.g. "whoopsie")? or do they see it coming and avoid more gracefully? cite Barton Matthis Fajen)
+    
     - different gaze/gait patterns that occur in different cases (i.e. last-minute replan in a "whoopsie" vs. early replan in a graceful avoidance)
+  
   - ALSO/OR - big swoopy curvy paths to look at planning on straight-aheads vs curves (help with the 'planning horizon' thing, because decouples look ahead from path planning due to curvature)
+  
+    - decouples end-goal planning from short-term step planning
 
 
 # Analyses
 
 - Hypothesis to test: Are fixation patterns driven by biomechanics ("I wish I could step there, so I will look there and see if there's a foothold available) or vision ("Peripheral cues suggest there's a foothold there, so let me fixate it to see if its something I want to put my foot on it")
-  - e.g. Fig 2 of Trent's f32
+
+    - obviously its gonna be gonna be a combo of both, but how/when do they trade off? 
+  
+    - e.g. Fig 2 of Trent's f32
+
 - Baseline modelling
+
   - Gaze/gait integration:
+  
     - how hard are peeps fixating footholds in the different conditions?
+    
         - e.g. figs 3, 4,5, in Matthis Current Bio
+
   - Basic stats:
+  
     - look ahead distance vs timing (prediction - timing is constant-ish in 1.5-2sec range, look ahead distance varies with terrain/walking speed)
+    
     - deviations from PGC (prediction - deviations are larger in sparse terrain, and in distractor conditions, e.g. Fig 2 Matthis Current Bio)
+    
     - speed fluctuations (prediction - speed fluctuations are larger in sparse terrain, and in distractor conditions, e.g. 'energy recovery' in matthis 2013 (proc roy soc B), figs 4, 5)
+    
     - fixation duration (no real predictions, but a stat to compare/diffrentiate between conditions)
+  
   - Body-centered:
+  
       - LIP model (COM trajectory relative to planted foot, e.g. Koolen/Rebula/Pratt paper, Matthis Fajen 2013,14, etc)
+      
       - Prefered gait cycle (literally just step length, width, timing, e.g. Donelan stuff, e.g. Fig 2 Matthis current bio)
+
+  
   - Retinal-centered:
+  
       - Retinal optic flow div/curl relative to eyeball trajecotories (e.g. Matthis et al 2023)
+      
         - look for increased stabilization in distractor vs no-distractor conditions (e.g. exp 1/2), e.g. 'do subs fixate harder so I can tell if its a distractor or not'
+        
         - Retinal optic flow div/curl relative to COM trajectory (e.g. Matthis et al 2023), e.g. looking for retinal correlats of full-body steering
+      
       - Visual Search - e.g. Najemnik/Geisler visual search stuff, e.g. likelihood of finding a target in a given area of the visual field (using RV1 model)
 
 
