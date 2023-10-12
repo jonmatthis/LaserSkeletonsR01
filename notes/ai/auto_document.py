@@ -74,11 +74,7 @@ def create_global_summary_chain():
 
 async def auto_document(document_root_path: Union[Path, str]):
     output_text = ""
-    document_tree = DirectoryTreeBuilder.from_path(path=document_root_path)
 
-    document_tree_string = f"```\n\n{document_tree.print()}\n\n```"
-    print(document_tree_string)
-    output_text += document_tree_string
     component_summary_chain = create_component_summary_chain()
     global_summary_chain = create_global_summary_chain()
     input_texts = []
@@ -113,6 +109,13 @@ async def auto_document(document_root_path: Union[Path, str]):
     output_text += (f"=============================================================\n\n"
                     f"=============================================================\n\n"
                     f"___ \n > Global Summary \n {global_summary}\n\n")
+
+    document_tree = DirectoryTreeBuilder.from_path(path=document_root_path)
+
+    document_tree_string = f"```\n\n{document_tree.print()}\n\n```\n\n"
+    print(document_tree_string)
+    output_text += document_tree_string
+
 
     with open("document_summary.md", "w", encoding="utf-8") as file:
         file.write(output_text)
