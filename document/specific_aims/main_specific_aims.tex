@@ -15,36 +15,9 @@ We are uniquely positioned tackle this set of scientific questions, having devel
 	\item[SA1: Information gathering and motor planning during full-body movement through real-world environments.]{There is a lack of normative baseline data on how individuals use their vision to actively select the information that guides walking through complex environments. Our approach will be to collect an integrated visuomotor dataset (including body movements, eye movements and the environment) in 50 adults with typical vision and motor function. We will analyze motor planning strategies, assess how the moment-to-moment instability of gait impacts gaze behavior, and identify adaptive gaze patterns. More generally, we will model the coordination of gaze/gait during visually-guided walking, establishing typical gaze patterns in the context of the motor behavior. \textit{SA1} will provide a comprehensive description of the sensorimotor processes that underlie visually-guided walking. \textit{Technical Deliverables (SA1):} comprehensive visuomotor dataset; open-source documentation of the hardware infrastructure for collecting low-cost, high-quality integrated visuomotor data; open-source software processing pipeline for integrating multi-modal dataset into the same spatial reference frame.}
 
  
-% \begin{description}
-% 	\item[SA1: Laser Skeletons]{Characterize the coordination of gaze and gait during walking in complex terrains.}
-% 	\item[Rationale:] {There is a lack of normative baseline data on how individuals actively use their visual systems to select information for guiding gross sensory motor movements, such as walking, in complex environments. Establishing a better understanding of gaze patterns and motor planning during walking will provide valuable insights into visual processing and movement coordination.}
-% \item[Approach:]{We will collect data from 50 adults with typical vision to comprehensively describe their eye movements during walking in various terrains. We will analyze motor planning strategies, changes in gaze behavior during instability, and identify advantageous gaze patterns during moments of instability.}
-% \item[Technical Deliverables:]{ A comprehensive dataset of eye movement patterns in adults. Detailed analyses of motor planning strategies and gaze behavior during walking.  Data/Analysis infrastructure that support the re-use of the dataset by other groups. Open source data collection infrastructure that supports the collection of new datasets by other groups.}
-% \end{description}
-
     \item[SA2: Testing the spatial and temporal dynamics of visual information gathering and motor planning.] {We have developed a body- and gaze-contingent augmented reality ground plane (3m x 10m) for the presentation of arbitrary 2D walking paths. Preliminary results show that the manipulation of foothold sparsity results in modulation of gaze/gait behavior that mimics the changes due to different terrain complexity observed in natural environments. We will manipulate the availability of visual information based on current body position and gaze location to identify the role of temporal dynamics and peripheral processing in the visual information gathering that supports walking.  \textit{SA2} will identify when and where in the visual field the critical information for foothold selection during walking occurs. \textit{Technical Deliverables (SA2):} open source hardware specifications for "augmented reality ground-plane"; open-source software processing pipeline for integrating laboratory-based multi-modal data into the same spatial reference frame}
 
-    % saving this for later...
-    % \textit{Technical deliverables:} detailed documentation of the hardware infrastructure and laboratory protocols the augmented reality ground-plane; integration of the laboratory-based data collection techniques with the software processing pipeline described in SA1. }
-
-%     \begin{description}
-% 	\item[Aim 2: Augmented Reality Ground Plane] {Develop laboratory protocols using an augmented reality ground plane to disentangle motor planning strategies and visual information processing strategies observed during walking in natural environments.  }
-
-% \item[]{Rationale: Observational data from natural environments informs this set of laboratory experiments, allowing for controlled examination of visual information and its influence on motor planning and gaze-gait coordination. This approach will enable a deeper understanding of the underlying mechanisms and strategies involved in walking.}
-% \item[]{ Approach: We will use an augmented reality ground plane to tightly control what visual information is available and when it is available. By controlling the available visual information, we will test hypotheses derived from the observational data regarding motor planning and gaze-gait coordination.}
-% \item[] {Technical Deliverables: A set of laboratory protocols utilizing augmented reality technology, designed to systematically control and manipulate visual information during walking experiments. These protocols will enable researchers to investigate the interaction between visual processing and motor planning in a controlled setting.}
-% \end{description}
-
     \item[SA3: Impact of Divided on Attention on the visuomotor control of walking.] {The data collection effort described in SA1 will include a divided attention condition. Participants will be asked to walk while talking to an experimenter and/or completing tasks on their phone.  Prior work across gait and postural control studies demonstrates that there is a cost to divided attention [CITE]. We will measure the impact of divided attention on the coordination of gaze/gait during full-body movement through real-world environments. \textit{SA3} will provide insight into how visual information gathering and motor planning resources are allocated when individuals are simultaneously engaged in two tasks. \textit{Technical Deliverables (SA3): divided attention extension to comprehensive visuomotor dataset (see SA1)}}.
-
-% \begin{description}
-% 	\item[Aim 3: Divided Attention] {Examine the impact of divided attention on the coordination of gaze and gait.}
- 
-% 	\item{Rationale: In everyday life, people often engage in multiple activities simultaneously while navigating their environment, making it important to understand how divided attention affects gaze and gait coordination. Furthermore, age-related changes in multitasking abilities may impact gaze-gait coordination and warrant investigation.}
- 
-%     \item{Approach: We will simultaneously collect this data in Aim 1, with participants walking across complex terrains while engaging in divided attention tasks such as playing on their phone or talking to a friend. We will observe and analyze gaze patterns and gait coordination under these divided attention conditions.}
-    
-%     \item{Technical Deliverables: A comprehensive dataset on gaze and gait coordination during divided attention tasks, providing insights into the impact of multitasking on walking performance and the safe navigation of complex environments.}
 
 
 \end{description}
@@ -55,8 +28,29 @@ We are uniquely positioned tackle this set of scientific questions, having devel
 
 ------
 
-\section{ FROM GOOGLE DOC}
+\section*{ FROM GOOGLE DOC}
 
 When humans walk through the world, their eye movements and body movements are precisely coordinated enabling impressive performance in complicated environments. Past studies have generally been small, and either focused on vision or on the biomechanics of walking, with relatively little crosstalk. A major impediment for the combination is a lack of good datasets, we would want to know body movements, eye movements, and the environment, all at the same time. Such datasets also hold back the development of strong predictive models, as neither eye movements nor body movements can meaningfully be separated during real-world walking. It also holds back research to ask to which level eye-movements and body movements can be seen as jointly optimized. What is missing is a big meaningful dataset, along with the relevant descriptive and normative modeling.
 
 Multiple developments in movement science and neural networks make addressing these problems now realistic. Eye and body movements can now be efficiently traced using pose tracking technologies that I learned to use during my Postdoc. Overall movement of eyes and body can now be modeled with neural networks, that I have used since my PhD thesis. And asking questions about optimality of movements has been the core of my postdoctoral work. The combination of these skills now promises to allow us to move the joint study of walking and eye movement from the laboratory into the real world.
+
+
+\section*{Kate writes 3 questions and 3 paragraphs to describe what might be 3 aims}
+
+\begin{description}
+    \item[Q1: What gaze strategies do humans use for foothold finding?]{This is a real-world visual search task.  We know from our preliminary data that search is driven to a large degree by biomechanics.  But we have more questions:  What are the sequences of eye movements that people make? What are the timing of eye movements relative to steps (I've been looking at data... I think there's something here)?  What is the impact of divided attention -- Does task switching reveal something? What is the necessary information?  When there is not other task they can do whatever they want.
+    
+    
+    Notes from conversation with Jon:  ARGP will help us say something about fixations to footholds and distractors. To really deconstruct the visual search.  Separate fixations into where we stepped and where we looked and distractors/footholds.  
+    
+    Fixations for information gathering vs. steering and posture.}
+    
+    \item[Q2: What makes a good foothold?]{Foothold locations are determined by a variety of factors: getting to a location, minimizing the energetic costs of walking, avoiding paths that change in height or direction, stability and/or “flatness” of the ground. Basically, you want to get from point A to B, but without getting too tired or stepping on wobbly rocks. How do walkers trade off these different costs?
+
+    A number of biomechanical definitions of what makes a good foothold (Jon... list please).  How can people identify those with their visual systems?
+    
+    }
+    
+    \item[Q3: How do humans adjust gait to accommodate upcoming obstacles and changes in direction?]{a. Let's fit a walker and measure step efficiency and how it changes. b. Let's repeat Kuo's obstacle adjustment experiment for lateral movements (if I knew what an ARGP was... I'd say we should use that). c. Let's take Kuo's strategy and apply it to outdoor data.}
+
+\end{description}
