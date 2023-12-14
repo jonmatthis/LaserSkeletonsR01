@@ -13,9 +13,9 @@ langchain = "^0.0.313"
 python-dotenv = "^1.0.0"
 openai = "^0.28.1"
 anthropic = "^0.3.11"
-open3d = "^0.17.0"
 pyvista = "^0.42.3"
 scipy = "^1.11.3"
+pydantic = "1.*"
 
 
 [build-system]

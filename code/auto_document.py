@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Union
 
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI, ChatAnthropic
+from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from magic_tree.controller.builders.directory_tree_builder import DirectoryTreeBuilder
 
@@ -67,7 +67,8 @@ Then list the Strengths and Weaknesses of the proposal
 def create_global_summary_chain():
     prompt = ChatPromptTemplate.from_template(GLOBAL_SUMMARY_PROMPT)
 
-    model = ChatAnthropic(temperature=0)
+    model = ChatOpenAI(temperature=0,
+                       model_name="gpt-3.5-turbo-16k")
     chain = prompt | model
     return chain
 
@@ -84,7 +85,7 @@ async def auto_document(document_root_path: Union[Path, str]):
         if any(subfolder in str(path).lower() for subfolder in subfolders_to_skip):
             continue
         if path.is_file():
-            if path.suffix == ".tex":
+            if path.suffix in [".tex", ".md"]:
                 print(f"=============================================================\n"
                       f"Processing {path}")
                 file_content = path.read_text()
