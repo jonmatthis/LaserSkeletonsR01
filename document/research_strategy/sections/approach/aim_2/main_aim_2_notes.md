@@ -18,7 +18,7 @@
 #### Massed data vs 'per-action' data
 - [EASIER] Massed data is BIG stats of whole condition lumped together
 - what are the stats of Bx in this conditon?
-- [HARDer] Per-action data is stats of each individual action chunk (e.g. each step, or each fixation)
+- [HARDER] Per-action data is stats of each individual action chunk (e.g. each step, or each fixation)
 - what was going on when the subject did that specific thing? (e.g. what was the fixation duration when the subject took that step?)
 
 
