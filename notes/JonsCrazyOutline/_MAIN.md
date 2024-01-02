@@ -3,6 +3,8 @@
 ## [[Research Design]]
 ### [[General Strategy]]
 ### [[General Methods]]
+
+### [[Specific Aims]]
 #### [[Aim 1 - Real-world Recordings]]
 #### [[Aim 2 - Lab-based Experiments]]
 

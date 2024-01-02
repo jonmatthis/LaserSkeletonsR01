@@ -5,11 +5,12 @@
     - many footholds
     - Presumably easist condition
   - SPARSE = few footholds, difficult)
+   
 ## Task Constraints
 - Walk from Start to End at "comfortable speed"
   - Enforcement: Time Out => Restart
 - Only step on Targets
-  - Enforcement: Too Many Mises => Restart
+  - Enforcement: Too Many Misses => Restart
 
 
 ## Controls for: 
@@ -20,7 +21,7 @@
 
 ## Does not control for
 - Visual density
-- 
+
 
 
 ## Planned Analyses
