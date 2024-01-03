@@ -1,1 +1,0 @@
-# Intertial Measurement Unit Motion Capture
