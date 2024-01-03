@@ -1,12 +1,21 @@
 # _MAIN
 
+## [[Specific Aims]]
+
+
+## [[Research Strategy]]
+### [[Significance]]
+### [[Innovation]]
+### [[Approach]]
+
 ## [[Research Design]]
 ### [[General Strategy]]
 ### [[General Methods]]
+#### [[Real-world Recordings]]
+#### [[Lab-based Experiments]]
+##### [[JonsCrazyOutline/Augmented Reality Ground Plane (ARGP)]]
 
 ### [[Specific Aims]]
-#### [[Aim 1 - Real-world Recordings]]
-#### [[Aim 2 - Lab-based Experiments]]
 
 ## [[Data]]
 ### [[Data Time Scales]]
@@ -16,5 +25,3 @@
 ### [[Vision Related Analyses]]
 ### [[Body Related Analyses]]
 ### [[Integrated Analyses]]
-
-
