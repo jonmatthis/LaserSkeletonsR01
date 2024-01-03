@@ -20,7 +20,7 @@ env:
   INSTANCE: Writerside/lsr
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpLSR2-all.zip
-  # old_Writerside docker image version
+  # Writerside docker image version
   DOCKER_VERSION: 232.10275
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
@@ -34,7 +34,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build old_Writerside docs using Docker
+      - name: Build Writerside docs using Docker
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ env.INSTANCE }}
