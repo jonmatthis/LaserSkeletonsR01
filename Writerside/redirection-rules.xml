@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="58c48e98">
+        <description>Created after removal of "Iner" from Laser Skeletons R01</description>
+        <accepts>inertia.html</accepts>
+    </rule>
+    <rule id="6be0f933">
+        <description><![CDATA[Created after removal of "<outdoor-rig.md>" from Laser Skeletons R01]]></description>
+        <accepts>outdoor-rig.html</accepts>
+    </rule>
+    <rule id="66df5aff">
+        <description>
+            <![CDATA[Created after removal of "<Real-world Recordings.md>" from Laser Skeletons R01]]></description>
+        <accepts>Real-world Recordings.html</accepts>
+    </rule>
+    <rule id="7019b974">
+        <description>
+            <![CDATA[Created after removal of "<aim-1-real-world-recordings.md>" from Laser Skeletons R01]]></description>
+        <accepts>aim-1-real-world-recordings.html</accepts>
+    </rule>
+    <rule id="65598bde">
+        <description>Created after removal of "Research Design" from Laser Skeletons R01</description>
+        <accepts>research-design.html</accepts>
+    </rule>
+    <rule id="4215ffef">
+        <description>Created after removal of "Aim 2 - Lab-based Experiments" from Laser Skeletons R01</description>
+        <accepts>aim-2-lab-based-experiments.html</accepts>
+    </rule>
+</rules>
