@@ -1,21 +1,14 @@
 
 NOT CHANGED YET
 
-\textbf{\underline{Rationale:}}  The main goal of this aim is to is to jointly describe and model visual perception, visual selection (gaze), and biomechanics (gait) in the context of the natural behavior of walking in real-world environments.  Ultimately, this work will provide an integrated account of the sensorimotor processing underlying visually-guided walking.
+\textbf{\underline{Rationale:}}  The main goal of this aim is to is to ....
 
 We will examine the specific fixation strategies used by walkers during foothold finding.  We will evaluate how these fixation strategies are influenced by the biomechanical constraints of walking. What visual and biomechanical information is most predictive of the location of the next footfall and/or the next gaze location?  How is that information extracted from the retinocentric reference frame of the walker?
 
-Through the proposed divided attention conditions, we seek to understand the tradeoffs that walkers make to maintain stability and find footholds while engaging in other tasks.  How do they modify their fixation patterns as they split their attention between tasks?  Are there stereotyped ways in which all walkers split their fixation, suggesting that certain fixation sequences are chunked?
 
-\noindent\underline{\textbf{Technical Deliverables:}} A major contribution of this grant will be to lower the barrier to the collection and analysis of integrated visuomotor datasets collected in real-world environments.  The is will involve the production of open-hardware, open source data processing pipelines, and a well-documented visuomotor dataset for visually-guided walking:
+\textbf{\underline{Aim 1a: Gaze strategies in natural terrain}}
 
-[Hardware / Data Collection Documentation] We will provide detailed open source documentation for the hardware integration of a motion capture suit (Rokoko), eye tracker (Pupil Labs), and data collection device (tablet/computer). We will also create detailed documentation and video tutorials for how to collect these data.
 
-[Data Processing Pipelines] There are several steps required to convert the raw data from these devices into a calibrated and integrated visuomotor dataset. In our previous work together, we created an initial version of these pipelines. However they are not easily re-usable by other groups or updated for new technologies. Since the creation of those initial pipelines, Matthis (NU)
-has had significant training in open source software development. Using our internal pipelines as a starting point we will develop a suite of packages that: 1. Perform photogrammetry on the world video content, relying on Meshroom (https://alicevision.org/). 2. Spatially calibrate the gaze data, body motion and environment into the same reference frame (see methods CITE). 3. Generate visualizations of walkers moving through the terrain (e.g., youtube link). All three packages will be written in
-python and shared as open-source packages on Github.  These will become a vital resource for the study of sensorimotor processing.  
-
-[Data] The integrated visuomotor dataset (n=75) collected in Aim 1 will be made available as a data repository on Zenodo. This dataset will include the original raw data as well as the fully processed data that includes the photogrammetry reconstruction and spatially calibrated data.  We will work internally and with collaborators (e.g., Johannes Burge, Eero Simoncelli, ... ?? we could get letters of support) to build an API that not only allows individuals to download the full dataset, but also provides methods to query the dataset for combinations of image, video, biomechanics, and label data well-suited to advanced modelling/ML that is beyond the scope of the current proposal.
 
 \noindent\underline{\textbf{Research Design:}} The resulting data will provide the opportunity to answer a variety questions about visual perception, gaze, gait, the environment, and the coordination of these during walking.
 
@@ -37,12 +30,6 @@ From previous work, we know that terrain difficulty impacts gaze [CITE]. However
 
 All people have a preferred gait and we can measure each person's preferred gait parameters (e.g., ...) as they walk on flat terrain (pavement). Then we can measure the step-to-step efficiency as the inverted deviation from that preferred gait (see [CITE] for example).  --> (using GLM approaches, with history kernels) relate that deviation to look-ahead distance, look-ahead time and gaze location. We expect that individuals will modulate their gaze to do longer term path planning and foothold finding during periods of instability, i.e. their gaze will be farther down the path during periods of stability.
 
-
-v. \emph{How does divided attention impact the visuomotor control of walking?} When humans walk through the world they are frequently doing more than just finding safe footholds. They might also talk to a friend, or check directions on their phone, or be planning out the rest of their day. Divided attention and/or task switching is required in these contexts. This puts limits on the resources available for the visuomotor control of walking. Previous work on .. has found this to \ldots{} Because these contexts are common in everyday life, it is critical that we measure and compare performance to multi-task conditions. In this project we will use two divided attention tasks: 1. Having a conversation with another person and 2. Using a cell phone to play a game or text. Below we briefly describe some of the major hypotheses we have about how divide attention will impact the measured outcomes in our previous research questions (i-iv). 
-
-\emph{[i. Gaze Allocation]} We expect that people will spend less time attending to footholds, allocating some fixations to the task. We will measure how the cost of the second task changes fixation location, fixation duration and fixation sequences. We can further explore this attentional tradeoff by comparing how gaze allocation changes across our two divided attention conditions, which have very different visual information needs. \emph{[ii. Step-to-step gait efficiency]} Is there a decrease in step-to-step efficiency with attention engaged elsewhere? We will measure the step-to-step efficiency observed in the
-single task and divided attention conditions. The cost of the second task may decrease step-to-step efficiency, and we are curious how variable this decrease is across individuals and whether it is predicted by the measurement of their dynamic balance (NAME OF TEST). \emph{[iii Foothold properties]} Does the choice of footholds become less precise in quantifiable ways? In the divided attention task the number of fixations allocated to footholds will be decreased. Using classification analyses like those described in (iii) we can ask whether there is discernible difference between the visual properties available during the ground fixations performed in the single task condition and the divided attention conditions. \emph{[iv. Ground Clearance]} Finally we are interested in understanding whether walkers adjust their ground clearance in order to avoid ``scuffs'' or tripping that might be caused by the lowered attention to foothold finding.
-
 vi. [COMMENTS ON MODELING? That point to the end of Aim II]
 
 \noindent \underline{\textbf{Experimental concerns.}}
@@ -59,3 +46,6 @@ vi. [COMMENTS ON MODELING? That point to the end of Aim II]
   participants show evidence of learning effects across sessions we can
   consider collecting data at two sites.
 \end{itemize}
+
+
+\textbf{Aim 1b: }
