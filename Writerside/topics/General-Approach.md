@@ -1,0 +1,3 @@
+# General Approach
+
+Start typing here...

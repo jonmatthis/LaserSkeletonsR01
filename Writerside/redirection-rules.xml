@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="12b4b5d6">
+        <description>Created after removal of "About Laser Skeleton R 01" from Laser Skeleton R 01</description>
+        <accepts>starter-topic.html</accepts>
+    </rule>
+    <rule id="2df7a719">
+        <description>Created after removal of "SA Aim 1" from Laser Skeleton R 01</description>
+        <accepts>SA-Aim-1.html</accepts>
+    </rule>
+</rules>
