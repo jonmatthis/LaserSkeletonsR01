@@ -24,7 +24,7 @@ env:
   DOCKER_VERSION: 232.10275
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
-#  ALGOLIA_ARTIFACT: algolia-indexes-S.zip
+  ALGOLIA_ARTIFACT: algolia-indexes-LSR.zip
 
 jobs:
   build:
