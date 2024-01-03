@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="lsr0"
+                 name="Laser Skeleton R 01"
+                  start-page="MAIN-DOCUMENT.md">
+
+    <toc-element topic="MAIN-DOCUMENT.md">
+        <toc-element topic="Specific-Aims.md"/>
+        <toc-element topic="Research-Strategy.md">
+            <toc-element topic="Significance.md"/>
+            <toc-element topic="Innovation.md"/>
+            <toc-element topic="Approach.md">
+                <toc-element topic="General-Approach.md">
+                    <toc-element topic="General-Methods.md"/>
+                    <toc-element topic="General-Strategy.md"/>
+                </toc-element>
+                <toc-element topic="Approach-Aim-1.md"/>
+                <toc-element topic="Approach-Aim-2.md"/>
+                <toc-element topic="Approach-Aim-3.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+</instance-profile>

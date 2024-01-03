@@ -1,0 +1,3 @@
+# General Strategy
+
+Start typing here...
