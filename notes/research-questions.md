@@ -5,6 +5,10 @@
   - for foothold-finding?
   - for path-planning / steering?
   - what are the "motifs" in gaze sequences?
+- Precision questions for ARGP
+  - Are "foothold fixations" limited to the actual place you'll be stepping or do you "look around"
+  - How does this change with density?
+  - How does this change with distractors? 
 - How do we fixate (or shift our gaze) during walking?
   - How long are the fixations?
   - How many per second
