@@ -5,8 +5,6 @@ Data happens at different time scales, from BIG massed data (i.e. what a the gen
 To smaller scaled "Per Action" data (e.g. per step, per fixation, etc)
 
 i.e. what was going on when the subject did that specific thing? (e.g. what was the fixation duration when the subject took that step?)
-
-## [[Full Dataset]]
 ## [[Per Partipcant]]
 ## [[Per Condition]]
 ## [[Per Walk]]

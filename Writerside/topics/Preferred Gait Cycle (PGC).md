@@ -22,9 +22,3 @@
 
 - In Lab study - we can fiddle with the knobs to figure out what the 'trade-offs' are w.r.t. gait parameters and environmental/task constraints.
     - then compare that to Outdoor data in order to characterize the 'challenge/trade-off/etc profile' of the outdoor terrain in order to figure out what makes a given terrain 'challenging' and how those challenges are adapted to at the musculoskeletal level (applications for aging - assist in characterizing multi-dimensional functional declines. i.e. perceptual vs cognitive vs motor vs musculoskeletal, etc)
-
-[[References]]
-[[Kuo 2007]]
-[[Donelan and Kuo 2002-ish]]
-[[Selinger and Donelan 2009-ish? (and related)]]
-[[Matthis et al Current Biology#Figure2]]

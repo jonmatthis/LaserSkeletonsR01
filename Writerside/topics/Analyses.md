@@ -14,7 +14,7 @@
 #### [[Visual Search (Retinotopic)]]
 
 ## [[Body Related Analyses]]
-### [[Preferred Gait Cycle]]
+### [[Preferred Gait Cycle (PGC)]]
 #### [[Step Length]]
 #### [[Step Width]]
 #### [[Step Cadence]]

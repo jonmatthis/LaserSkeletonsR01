@@ -35,7 +35,6 @@ See: https://jonmatthis.github.io/bs/datatypes.html
 ###### [[Center of Pressure]]
 ##### [[Gait Data]]
 ###### [[Foothold Location - World]]
-###### [[Preferred Gait Cycle (PGC)]]
 
 #### [[Vision Data (Lasers)]]
 ##### [[Retinally Aligned Videos]]

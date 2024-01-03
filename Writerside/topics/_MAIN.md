@@ -3,8 +3,10 @@
 ## [[Research Design]]
 ### [[General Strategy]]
 ### [[General Methods]]
-## [[Aim 1 - Real-world Recordings]]
-## [[Aim 2 - Lab-based Experiments]]
+
+### [[Specific Aims]]
+#### [[Aim 1 - Real-world Recordings]]
+#### [[Aim 2 - Lab-based Experiments]]
 
 ## [[Data]]
 ### [[Data Time Scales]]

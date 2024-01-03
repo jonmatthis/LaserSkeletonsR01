@@ -1,4 +1,4 @@
-# Oculomotor Descriptive Statistics
+# Descriptive Statistics
 
   - Inter-saccadic interval - How long are fixations? 
   - Sacade directions/magnitudes
