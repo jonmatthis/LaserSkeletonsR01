@@ -8,11 +8,11 @@
 
     <toc-element topic="MAIN-DOCUMENT.md">
         <toc-element topic="Specific-Aims.md"/>
-        <toc-element topic="Research-Strategy.md">
+        <toc-element topic="research-strategy.md">
             <toc-element topic="Significance.md"/>
             <toc-element topic="Innovation.md"/>
             <toc-element topic="Approach.md">
-                <toc-element topic="General-Approach.md">
+                <toc-element topic="general-approach.md">
                     <toc-element topic="General-Methods.md"/>
                     <toc-element topic="General-Strategy.md"/>
                 </toc-element>

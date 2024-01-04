@@ -6,10 +6,10 @@
                   name="Laser Skeletons R01" start-page="_main.md">
 
     <toc-element topic="_main.md">
-        <toc-element topic="Specific Aims.md">
+        <toc-element topic="specific-aims.md">
             <toc-element topic="is-visual-search-for-footholds-driven-by-vision-or-biomechanics.md"/>
         </toc-element>
-        <toc-element topic="Research-Strategy.md">
+        <toc-element topic="research-strategy.md">
             <toc-element topic="innovation.md"/>
             <toc-element topic="significance.md"/>
             <toc-element topic="approach.md">
