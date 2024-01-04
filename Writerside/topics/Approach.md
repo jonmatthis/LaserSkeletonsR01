@@ -1,3 +1,0 @@
-# Approach
-
-Start typing here...

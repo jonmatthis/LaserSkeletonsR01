@@ -1,3 +1,0 @@
-# Innovation
-
-Start typing here...
