@@ -40,4 +40,13 @@
         <description>Created after removal of "Laser Skeletons" from Laser Skeletons R01</description>
         <accepts>laser-skeletons.html</accepts>
     </rule>
+    <rule id="447f05b1">
+        <description>
+            <![CDATA[Created after removal of "<is-visual-search-for-footholds-driven-by-vision-or-biomechanics.md>" from Laser Skeletons R01]]></description>
+        <accepts>is-visual-search-for-footholds-driven-by-vision-or-biomechanics.html</accepts>
+    </rule>
+    <rule id="124f3598">
+        <description>Created after removal of "_NOTES" from Laser Skeletons R01</description>
+        <accepts>NOTES.html</accepts>
+    </rule>
 </rules>

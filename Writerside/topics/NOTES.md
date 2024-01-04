@@ -1,3 +1,0 @@
-# _NOTES
-
-Start typing here...
