@@ -16,9 +16,9 @@
                     <toc-element topic="General-Methods.md"/>
                     <toc-element topic="General-Strategy.md"/>
                 </toc-element>
-                <toc-element topic="Approach-Aim-1.md"/>
-                <toc-element topic="Approach-Aim-2.md"/>
-                <toc-element topic="Approach-Aim-3.md"/>
+                <toc-element topic="approach-aim-1.md"/>
+                <toc-element topic="approach-aim-2.md"/>
+                <toc-element topic="approach-aim-3.md"/>
             </toc-element>
         </toc-element>
     </toc-element>

@@ -17,10 +17,9 @@ See: https://jonmatthis.github.io/bs/datatypes.html
 ##### [[Runtime Data]]
 ###### [[ARGP Data Logs]]
 ###### [[Sensor Timestamps]]
-
+ 
 ### [[Derived Data]]
-
-#### [[Environment Data]]
+#### [[Controlled Environment Data]]
 ##### [[Photgrammetry Meshes]]
 ##### [[ARGP Terrains]]
 ##### [[Task Definition]]
@@ -29,7 +28,7 @@ See: https://jonmatthis.github.io/bs/datatypes.html
 ##### [[Kinematic Data]]
 ###### [[3d Trajectories]]
 ###### [[Joint Angles]]
-##### [[ Kinetic Data]]
+##### [[ Derived Kinetic Data]]
 ###### [[Center of Mass]]
 ###### [[Base of Support]]
 ###### [[Center of Pressure]]

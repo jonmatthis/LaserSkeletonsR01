@@ -13,18 +13,13 @@
             <toc-element topic="innovation.md"/>
             <toc-element topic="significance.md"/>
             <toc-element topic="approach.md">
+                <toc-element topic="research-questions.md"/>
                 <toc-element topic="general-strategy.md">
                     <toc-element topic="behavioral-performance-kernels-across-data-time-scales.md"/>
                     <toc-element topic="real-world-vs-lab-based-virtuous-research-cycle.md"/>
                     <toc-element topic="within-subject-functional,-self-normalized,-behavioral-profiles.md"/>
                 </toc-element>
                 <toc-element topic="general-methods.md">
-                    <toc-element topic="data.md">
-                        <toc-element topic="data-time-scales.md"/>
-                        <toc-element topic="data-types.md">
-                            <toc-element topic="massed-data.md"/>
-                        </toc-element>
-                    </toc-element>
                     <toc-element topic="Domain-Specific-Empirical-Methods.md">
                         <toc-element topic="Outdoor-Motion-Capture-Rig.md"/>
                         <toc-element topic="augmented-reality-ground-plane-(argp).md">
@@ -34,10 +29,16 @@
                             <toc-element topic="experiment-3-contrived-paths.md"/>
                         </toc-element>
                     </toc-element>
+                    <toc-element topic="data.md">
+                        <toc-element topic="data-time-scales.md"/>
+                        <toc-element topic="data-types.md">
+                        </toc-element>
+                    </toc-element>
                     <toc-element topic="analyses.md">
                         <toc-element topic="vision-related-analyses.md">
-                            <toc-element topic="gaze-stablization-(fixations).md"/>
                             <toc-element topic="oculomotor-descriptive-statistics.md"/>
+                            <toc-element topic="visual-search-(retinotopic).md"/>
+                            <toc-element topic="gaze-stablization-(fixations).md"/>
                         </toc-element>
                         <toc-element topic="body-related-analyses.md">
                             <toc-element topic="energy-recovery.md"/>
@@ -46,18 +47,16 @@
                             <toc-element topic="preferred-gait-cycle-(pgc).md"/>
                         </toc-element>
                         <toc-element topic="integrated-analyses.md">
-                            <toc-element topic="laser-skeletons.md"/>
+                            <toc-element topic="look-ahead-distance-vs-time.md"/>
+                            <toc-element topic="foothold-vs-non-foothold-fixations.md"/>
                         </toc-element>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="references.md"/>
-                <toc-element topic="visual-search-(retinotopic).md"/>
-                <toc-element topic="research-questions.md"/>
-                <toc-element topic="look-ahead-distance-vs-time.md"/>
-                <toc-element topic="foothold-vs-non-foothold-fixations.md"/>
                 <toc-element topic="validation.md"/>
                 <toc-element topic="lasers.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
+    <toc-element topic="NOTES.md"/>
 </instance-profile>

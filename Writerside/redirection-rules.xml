@@ -32,4 +32,12 @@
         <description>Created after removal of "Aim 2 - Lab-based Experiments" from Laser Skeletons R01</description>
         <accepts>aim-2-lab-based-experiments.html</accepts>
     </rule>
+    <rule id="6bbb4d7a">
+        <description>Created after removal of "Massed Data" from Laser Skeletons R01</description>
+        <accepts>massed-data.html</accepts>
+    </rule>
+    <rule id="60f9dbe2">
+        <description>Created after removal of "Laser Skeletons" from Laser Skeletons R01</description>
+        <accepts>laser-skeletons.html</accepts>
+    </rule>
 </rules>

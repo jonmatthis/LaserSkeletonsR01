@@ -1,3 +1,0 @@
-# Approach Aim 1
-
-Start typing here...
