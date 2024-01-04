@@ -1,3 +1,0 @@
-# Research Question - Is Visual Search Driven By Vision Or Biomecahnics
-
-Start typing here...

@@ -1,5 +1,7 @@
 # ARGP Experiment 1 - Foothold density manipulation
 
+#argp-schema
+
 ## Manipulation - Foothold Density
   - DENSE: 
     - many footholds

@@ -1,20 +1,44 @@
 
 # Specific Aims
 
-## Aim1: Gaze Strategies for Foothold Finding
-### Examination of eye movement sequences.
-### Timing of eye movements relative to footsteps.
-### Impact of divided attention and task switching.
-### Information necessary for the task when no secondary task is present.
-### Use of ARGP to analyze fixations on footholds versus distractors.
-### Distinguishing between fixations for information gathering and those for steering/posture.
+/* Schema */
+## Aim% - Short title
+- [[ARGP Experiment Schema]]
+### %1 - Vision-y stuff
+### %2 - Biomechanic-y stuff
+### %3 - Integrated stuff
 
-## Aim2: Characteristics of a Good Foothold
-### Factors determining foothold locations: reaching the destination, minimizing energy costs, avoiding unstable terrain.
-### Biomechanical definitions of good footholds.
-### Visual identification of good footholds by people.
 
-## Aim3: Adjusting Gait for Obstacles and Direction Changes
+## Aim1 - Gaze strategies for foothold finding
+- [[ARGP Experiment 1 - Foothold density manipulation]]
+### A1- Vision
+#### Examination of #eye-movement-sequences
+### A1 - Biomechanics
+#### Timing of #eye-movements-relative-to-footsteps
+### A1 - Integration
+#### Distinguishing between #fixations-for-search-steering-posture
+
+
+## #aim2-good-footholds - what makes them? 
+- [[ARGP Experiment 2 - Add distractors]]
+### #A2-Vision
+####  #visual-identification
+
+### #A2-Biomechanics
+#### #biomechanical-determinants-of-a-good-foothold
+##### #preferred-gait-cycle
+##### #friction-cone
+##### #ground-reaction-force-normal
+
+### A2-Integration
+### #task-demands determining foothold locations: 
+#### #steering towards goal
+#### Minimizing #energetic-cost-of-transport
+#### Avoiding #unstable-terrain
+
+
+## #aim3-walking-steering-navigation
+- Experiemnt [[ARGP Experiment 3 - Contrived Paths]]
 ### Measuring step efficiency and its variations.
 ### Replicating Kuo's obstacle adjustment experiment for lateral movements.
 ### Applying strategies to outdoor data to test generalizability.

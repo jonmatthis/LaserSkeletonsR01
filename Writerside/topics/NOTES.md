@@ -1,3 +1,2 @@
 # _NOTES
-
-Start typing here...
+[[Research Questions]](research-questions.md)

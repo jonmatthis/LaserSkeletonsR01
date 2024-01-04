@@ -1,5 +1,7 @@
 # ARGP Experiment 2 - Add distractors
 
+#argp-schema
+
 ## Manipulation
 Similar to [[ARGP Experiment 1 - Foothold density manipulation]], but now there are Distractors mixed in with the targets
 - Distractors look (parameterizably) similar to Targets, but stepping on them is the same as stepping on the floor
