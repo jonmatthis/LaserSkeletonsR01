@@ -20,7 +20,7 @@
                     <toc-element topic="within-subject-functional,-self-normalized,-behavioral-profiles.md"/>
                 </toc-element>
                 <toc-element topic="general-methods.md">
-                    <toc-element topic="Domain-Specific-Empirical-Methods.md">
+                    <toc-element topic="domain-specific-empirical-methods.md">
                         <toc-element topic="Outdoor-Motion-Capture-Rig.md"/>
                         <toc-element topic="augmented-reality-ground-plane-(argp).md">
                             <toc-element topic="argp-experiments.md"/>
